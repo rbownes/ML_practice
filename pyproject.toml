@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "torch_teachings"
+version = "0.1.0"
+description = ""
+authors = ["rbownes <richard.bownes@bbc.co.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.19.4"
+torch = "^1.7.1"
+pandas = "^1.2.0"
+scikit-learn = "^0.24.0"
+seaborn = "^0.11.1"
+ipykernel = "^5.4.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
